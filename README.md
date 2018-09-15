@@ -8,8 +8,13 @@ Simply clone the project to the location where you would like to store the conta
 Run:
 
 `python contact.py` to view all operations  
+
 `python contact.py add firstname=Charle middlename=T. lastname=Root addresses=123 example DR phone_numbers=1111111111 emails=test@viperfish.net,test2@viperfish.net` to add record  
+
 `python contact.py update [entry_number] lastname=Updated` to update record  
+
 `python contact.py get 0 1 2` to get records  
+
 `python contact.py keyword name "keyword1" "keyword2"` to find by name  
+
 `python contact.py remove 0 1 2` to remove records  

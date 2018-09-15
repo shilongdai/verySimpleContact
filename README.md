@@ -18,3 +18,5 @@ Run:
 `python contact.py keyword name "keyword1" "keyword2"...` to find by name  
 
 `python contact.py remove 0 1 2 [entry_numbers]...` to remove records  
+
+No spaces are allowed next to equal signs

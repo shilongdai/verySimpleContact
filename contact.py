@@ -61,7 +61,7 @@ def equiv2HandlerMapper(person):
                    "lastname": lambda name: person.setLastname(name),
                    "addresses": lambda addresses: person.setAddresses([i.strip() for i in addresses.split(',')]),
                    "phone_numbers": lambda phones: person.setPhoneNumbers([i.strip() for i in phones.split(',')]),
-                   "emails": lambda emails: person.setEmailAddress([i.strip() for i in emails.split(',')]),
+                   "emails": lambda emails: person.setEmailAddresses([i.strip() for i in emails.split(',')]),
                    "note": lambda note: person.setNote(note)
                    }
     return valueMapper

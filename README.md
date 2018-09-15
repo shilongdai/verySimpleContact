@@ -13,8 +13,8 @@ Run:
 
 `python contact.py update [entry_number] lastname=Updated` to update record  
 
-`python contact.py get 0 1 2` to get records  
+`python contact.py get 0 1 2 [entry_numbers]...` to get records  
 
-`python contact.py keyword name "keyword1" "keyword2"` to find by name  
+`python contact.py keyword name "keyword1" "keyword2"...` to find by name  
 
-`python contact.py remove 0 1 2` to remove records  
+`python contact.py remove 0 1 2 [entry_numbers]...` to remove records  
